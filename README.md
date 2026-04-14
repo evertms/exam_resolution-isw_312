@@ -47,7 +47,7 @@ El desarrollo se realizó siguiendo una estrategia basada en **GitFlow**:
 | Ejercicio | Enunciado breve | Archivo | Ruta |
 |-----------|----------------|---------|------|
 | 5 | Clase abstracta `Autenticador` y clase `GoogleAuth` | `autenticador.dart` | `modelo_a/autenticador.dart` |
-| 6 | Función asincrónica que procesa monto y moneda | `procesar_monto.dart` | `modelo_a/procesar_monto.dart` |
+| 6 | Función asíncrona que procesa monto y moneda | `procesar_monto.dart` | `modelo_a/procesar_monto.dart` |
 | 7 | `StatefulWidget` con `Column`, `Row` y botón que cambia "Activo"/"Inactivo" | `estado_widget.dart` | `modelo_a/estado_widget.dart` |
 
 ### Modelo B
