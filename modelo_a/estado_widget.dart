@@ -41,6 +41,16 @@ class _EstadoWidgetState extends State<EstadoWidget> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: const [
+                Icon(Icons.home, size: 30),
+                Icon(Icons.settings, size: 30),
+              ],
+            ),
+
+            const SizedBox(height: 20),
+            
             Expanded(
               child: Center(
                 child: Text(
