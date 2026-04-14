@@ -61,9 +61,12 @@ El desarrollo se realizó siguiendo una estrategia basada en **GitFlow**:
 ## Cómo ejecutar / probar las soluciones
 
 Cada archivo `.dart` contiene el código necesario para su respectivo ejercicio.  
-Para probar los fragmentos que no dependen de Flutter (ejercicios 5 y 6 de ambos modelos) puedes usar el entorno Dart:
+Para probar los fragmentos que no dependen de Flutter (ejercicios 5 y 6 del modelo A; y ejercicio 5 del modelo B) puedes usar el entorno Dart:
 
 ```bash
 dart modelo_a/autenticador.dart
 dart modelo_a/procesar_monto.dart
 dart modelo_b/estado_pedido.dart
+```
+
+Para ejecutar los ejercicios que sí incluyen Flutter, se recomienda copiar el código y ejecutarlo en DartPad: [https://dartpad.dev](https://dartpad.dev). Esto aplica al ejercicio 7 del modelo A y a los ejercicios 6 y 7 del modelo B.
